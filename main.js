@@ -1,7 +1,7 @@
 
 import {r1, add} from "./reason.js";
 
-console.log("Hi");
+
 
 document.getElementById('d1').innerHTML = r1("нет света");
 
@@ -17,12 +17,16 @@ let input = prompt("Enter the name, please!");
 
 let lastLetter = input.substring(input.length-1);
 let inpOrigin = input;
+input = input.toLowerCase(0);
+
 let isVow = isVowel(lastLetter);
-console.log(isVow);
+console.log(input);
 
 if(isVow){
     input = input.substring(0, input.length-1);
+    
 }
+
 let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит`
 
 document.getElementById('d2').innerHTML = output;
