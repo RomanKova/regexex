@@ -16,14 +16,14 @@ function isVowel(char) {
 let input = prompt("Enter the name, please!");
 
 let lastLetter = input.substring(input.length-1);
-
+let inpOrigin = input;
 let isVow = isVowel(lastLetter);
 console.log(isVow);
 
 if(isVow){
     input = input.substring(0, input.length-1);
 }
-let output = input + ", " + input + `всех по${input}ит`
+let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит`
 
-document.getElementById('d2').innerHTML = input;
+document.getElementById('d2').innerHTML = output;
 
