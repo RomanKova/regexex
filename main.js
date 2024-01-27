@@ -27,7 +27,7 @@ if(isVow){
     
 }
 
-let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит`
+let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит, пере${input}ит, вы${input}ит.`
 
 document.getElementById('d2').innerHTML = output;
 
