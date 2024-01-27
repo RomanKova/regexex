@@ -1,6 +1,7 @@
 
 import {r1, add} from "./reason.js";
 
+console.log("Hi");
 
 document.getElementById('d1').innerHTML = r1("нет света");
 
