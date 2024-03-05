@@ -31,4 +31,10 @@ let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит, пер�
 
 document.getElementById('d2').innerHTML = output + "Hello from develop!";
 
+const arr = [5, 8, 67, 87, 90];
+
+const newarray = [...arr, 99];
+
+console.log(newarray);
+
 
