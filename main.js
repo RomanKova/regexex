@@ -29,5 +29,6 @@ if(isVow){
 
 let output = inpOrigin + ", " + inpOrigin + ` всех по${input}ит, пере${input}ит, вы${input}ит.`
 
-document.getElementById('d2').innerHTML = output;
+document.getElementById('d2').innerHTML = output + "Hello from develop!";
+
 
